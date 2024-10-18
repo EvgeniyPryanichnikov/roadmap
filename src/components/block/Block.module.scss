@@ -1,0 +1,25 @@
+.block {
+  background-color: #1457cb;
+  // background: rgb(34,118,195);
+  // background: linear-gradient(0deg, rgba(34,118,195,1) 0%, rgba(6,26,148,1) 100%);
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+
+  &:hover {
+    box-shadow: 0px 15px 24px 0px #0000001A;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color:  #fff;
+}
+
+.themes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
