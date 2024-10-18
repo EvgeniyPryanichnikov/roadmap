@@ -10,17 +10,19 @@ const themes = [
   {id: 9, block: 'HTML', title: 'Основы SEO'},
   {id: 10, block: 'CSS', title: 'БЭМ'},
   {id: 11, block: 'CSS', title: 'Блочная модель'},
+  {id: 111, block: 'CSS', title: 'Медиа-запросы'},
   {id: 12, block: 'CSS', title: 'Flexbox'},
   {id: 13, block: 'CSS', title: 'CSS-Grid'},
   {id: 14, block: 'CSS', title: 'Позиционирование'},
   {id: 15, block: 'CSS', title: 'Отображение'},
-  {id: 16, block: 'JavaScript', title: 'Типы данных'},
-  {id: 17, block: 'JavaScript', title: 'Преобразование типов'},
-  {id: 18, block: 'JavaScript', title: 'VAR, LET и CONST'},
-  {id: 19, block: 'JavaScript', title: 'Область видимости'},
-  {id: 20, block: 'JavaScript', title: 'Контекст и ключевое слово this'},
-  {id: 21, block: 'JavaScript', title: 'Call или Apply, Bind'},
-  {id: 22, block: 'JavaScript', title: 'Контекст выполнения, Стек вызовов'}
+  {id: 16, block: 'CSS', title: 'SCSS'},
+  {id: 17, block: 'JavaScript', title: 'Типы данных'},
+  {id: 18, block: 'JavaScript', title: 'Преобразование типов'},
+  {id: 19, block: 'JavaScript', title: 'VAR, LET и CONST'},
+  {id: 20, block: 'JavaScript', title: 'Области видимости'},
+  {id: 21, block: 'JavaScript', title: 'Контекст и ключевое слово this'},
+  {id: 22, block: 'JavaScript', title: 'Call или Apply, Bind'},
+  {id: 23, block: 'JavaScript', title: 'Контекст выполнения, Стек вызовов'},
 ]
 
 export default themes
