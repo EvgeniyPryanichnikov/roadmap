@@ -27,7 +27,8 @@ const themes = [
   {id: 25, block: 'JavaScript', title: 'Массивы'},
   {id: 26, block: 'ES6+', title: 'Деструктуризация'},
   {id: 27, block: 'ES6+', title: 'Параметры по умолчанию'},
-  {id: 27, block: 'ES6+', title: 'Стрелочные функции'}
+  {id: 28, block: 'ES6+', title: 'Стрелочные функции'},
+  {id: 29, block: 'ES6+', title: 'Классы'},
 ]
 
 export default themes

@@ -3,14 +3,14 @@ import s from './Element.module.scss'
 import { ReactComponent as CloseIcon } from '../../icons/x-close.svg'
 import descriptions from '../../data/descriptions.json'
 
-const Element = ({title}) => {
+const Element = ({title, marker}) => {
   const actualDescription = descriptions.filter(item => item.parent === title)
   const [isShow, setIsShow] = useState(false)
   const handleShow = () => setIsShow(prev => !prev)
 
   return (
     <div className={s.themeContainer}>
-      <div className={s.theme} onClick={handleShow}>
+      <div className={marker ? s.themeHard : s.theme} onClick={handleShow}>
         {title}
       </div>
 

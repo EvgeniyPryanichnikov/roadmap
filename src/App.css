@@ -9,3 +9,6 @@
 }
 
 /* mark { background: rgb(228, 225, 222); color: rgb(15, 15, 15); } */
+li {
+  list-style-type: none;
+}
