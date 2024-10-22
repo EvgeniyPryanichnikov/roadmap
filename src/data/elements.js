@@ -23,6 +23,11 @@ const themes = [
   {id: 21, block: 'JavaScript', title: 'Контекст и ключевое слово this'},
   {id: 22, block: 'JavaScript', title: 'Call или Apply, Bind'},
   {id: 23, block: 'JavaScript', title: 'Контекст выполнения, Стек вызовов'},
+  {id: 24, block: 'JavaScript', title: 'Объекты'},
+  {id: 25, block: 'JavaScript', title: 'Массивы'},
+  {id: 26, block: 'ES6+', title: 'Деструктуризация'},
+  {id: 27, block: 'ES6+', title: 'Параметры по умолчанию'},
+  {id: 27, block: 'ES6+', title: 'Стрелочные функции'}
 ]
 
 export default themes

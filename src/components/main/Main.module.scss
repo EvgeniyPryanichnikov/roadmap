@@ -2,10 +2,12 @@
   padding: 10px 20px;
 }
 
-.title {
-  font-size: 24px;
+.mainTitle {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 10px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .blocks {
@@ -13,3 +15,24 @@
   flex-direction: column;
   gap: 24px;
 }
+
+  .hardBlock {
+    margin-top: 24px;
+    margin-bottom: 153px;
+    background-color: #ee3f3f;
+    // background: rgb(34,118,195);
+    // background: linear-gradient(0deg, rgba(34,118,195,1) 0%, rgba(6,26,148,1) 100%);
+    padding: 40px 10px;
+    border-radius: 4px;
+    text-align: center;
+  
+    &:hover {
+      box-shadow: 0px 15px 24px 0px #0000001A;
+    }
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color:  #fff;
+  }
