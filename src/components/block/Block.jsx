@@ -7,7 +7,7 @@ const Block = ({title}) => {
   const [isShow, setIsShow] = useState(false)
   const handleShow = () => {
     setIsShow(prev => !prev)
-    navigator.vibrate(1000);
+    window.navigator.vibrate(1000);
   }
   const actualThemes = themes.filter(item => item.block === title)
 
