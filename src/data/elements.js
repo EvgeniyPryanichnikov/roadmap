@@ -30,7 +30,8 @@ const themes = [
   {id: 28, block: 'ES6+', title: 'Стрелочные функции'},
   {id: 29, block: 'ES6+', title: 'Классы'},
   {id: 30, block: 'Браузер', title: 'DOM'},
-  {id: 31, block: 'Браузер', title: 'Critical Rendering Path (CRP)'}
+  {id: 31, block: 'Браузер', title: 'Critical Rendering Path (CRP)'},
+  {id: 32, block: 'Браузер', title: 'Методы получения элементов DOM'}
 ]
 
 export default themes 
