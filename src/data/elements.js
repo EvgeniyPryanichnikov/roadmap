@@ -29,6 +29,8 @@ const themes = [
   {id: 27, block: 'ES6+', title: 'Параметры по умолчанию'},
   {id: 28, block: 'ES6+', title: 'Стрелочные функции'},
   {id: 29, block: 'ES6+', title: 'Классы'},
+  {id: 30, block: 'Браузер', title: 'DOM'},
+  {id: 31, block: 'Браузер', title: 'Critical Rendering Path (CRP)'}
 ]
 
-export default themes
+export default themes 
