@@ -31,7 +31,10 @@ const themes = [
   {id: 29, block: 'ES6+', title: 'Классы'},
   {id: 30, block: 'Браузер', title: 'DOM'},
   {id: 31, block: 'Браузер', title: 'Critical Rendering Path (CRP)'},
-  {id: 32, block: 'Браузер', title: 'Методы получения элементов DOM'}
+  {id: 32, block: 'Браузер', title: 'Методы работы с DOM элементами'},
+  {id: 33, block: 'Браузер', title: 'События'},
+  {id: 34, block: 'Браузер', title: 'Cookies'},
+  {id: 35, block: 'Браузер', title: 'LocalStorage и SessionStorage'}
 ]
 
-export default themes 
+export default themes
