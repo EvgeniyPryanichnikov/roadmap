@@ -1,6 +1,10 @@
 .main {
   padding: 10px 20px;
   min-height: 100vh;
+
+  @media screen and (min-width: 768px) {
+    justify-self: center;
+  }
 }
 
 .mainTitle {
@@ -12,9 +16,14 @@
 }
 
 .blocks {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.hardBlocksContainer {
+  max-width: 600px;
 }
 
 .hardBlocks {
