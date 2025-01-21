@@ -35,7 +35,8 @@ const themes = [
   {id: 33, block: 'Браузер', title: 'События'},
   {id: 34, block: 'Браузер', title: 'Cookies'},
   {id: 35, block: 'Браузер', title: 'LocalStorage и SessionStorage'},
-  {id: 36, block: 'Браузер', title: 'Fetch API / Ajax (XHR)'}
+  {id: 36, block: 'Браузер', title: 'Fetch API / Ajax (XHR)'},
+  {id: 37, block: 'Браузер', title: 'Веб-компоненты'}
 ]
 
 export default themes
