@@ -6,7 +6,7 @@ const hardBlocks = [
   {id: 4, title: 'Promise', marker: 'hard'},
   {id: 5, title: 'Hosting', marker: 'hard'},
   {id: 6, title: 'Замыкания', marker: 'hard'},
-  {id: 7, title: 'Shadow DOM', marker: 'hard'},
+  {id: 7, title: 'Virtual DOM', marker: 'hard'},
   {id: 8, title: 'Event Bubbling', marker: 'hard'}
 ]
 
