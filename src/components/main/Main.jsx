@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div className={s.main}>
       <div className={s.mainTitle}>
-        FRONTEND 2024
+        FRONTEND-ROADMAP  2024
       </div>
 
 
